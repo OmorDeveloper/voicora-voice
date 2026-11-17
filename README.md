@@ -7,6 +7,7 @@ pinned SHA-256 fingerprint, and then works fully offline. No text or audio ever 
 
 | Release | Contents |
 | --- | --- |
+| `app-v1.0.0` | **[Voicora Android app (APK)](https://github.com/OmorDeveloper/voicora-voice/releases/download/app-v1.0.0/Voicora-1.0.0.apk)** |
 | `v1.0` | `voicora-voice-v1.bin` (~92 MB) and 32 voice packs named `voicora-<name>-<language>.bin` (English US, English UK, Hindi) |
 
 * [Terms of Use](https://omordeveloper.github.io/voicora-voice/terms.html)
