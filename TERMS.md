@@ -22,7 +22,7 @@ The voices are synthetic and are not copies of any real person's voice.
 
 ## 4. Voice model and open-source software
 The voice model and parts of the app are open-source software, provided under their own licenses (see
-[LICENSE](LICENSE), [NOTICE](NOTICE) and the in-app Open-source licenses page). Those licenses govern your use of those components.
+[License](https://omordeveloper.github.io/sayro-voice/license.html) and the in-app Open-source licenses page). Those licenses govern your use of those components.
 
 ## 5. No warranty
 The app is provided "as is", without warranties of any kind. AI speech can mispronounce words or contain errors.
@@ -37,7 +37,7 @@ These terms may be updated. The "Last updated" date shows the current version. C
 you accept the updated terms.
 
 ## 8. Privacy
-See the [Privacy Policy](PRIVACY.md).
+See the [Privacy Policy](https://omordeveloper.github.io/sayro-voice/privacy.html).
 
 ## 9. Contact
 Questions: open an issue at https://github.com/OmorDeveloper/sayro-voice/issues

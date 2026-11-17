@@ -1,6 +1,6 @@
 # Sayro AI — Privacy Policy
 
-_Last updated: 16 November 2026_
+_Last updated: 17 November 2026_
 
 Sayro AI ("the app") turns text into speech **on your device**. This policy explains what the app does with your information. In short: your text and audio stay on your phone.
 
@@ -10,7 +10,7 @@ Sayro AI ("the app") turns text into speech **on your device**. This policy expl
 |---|---|---|
 | Text you type, paste or import (TXT, PDF, EPUB) | Processed and stored **only on your device** | To generate speech and keep your history and projects |
 | Generated audio | Stored **only on your device**, in private app storage | So you can play, export and share it |
-| Pronunciation rules and settings | Stored **only on your device** | To apply your preferences |
+| Chats, pronunciation rules and settings | Stored **only on your device** | To apply your preferences |
 | Text sent to Sayro by other apps through Android's text-to-speech system | Processed **in memory on your device**, not stored | To speak it for that app |
 
 The app has **no user accounts, no analytics, no advertising, and no crash reporting**. It does not collect personal information, device identifiers or location.
