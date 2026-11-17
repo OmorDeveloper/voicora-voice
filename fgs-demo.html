@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Voicora — Foreground service demo</title>
+<style>
+:root{--bg:#f6f8fc;--card:#fff;--text:#0b1220;--muted:#5b6787;--line:#e3e8f2;--teal:#0f766e}
+@media (prefers-color-scheme:dark){:root{--bg:#070b14;--card:#0f1626;--text:#e8edf7;--muted:#9aa6c2;--line:#1e2a42;--teal:#2dd4bf}}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:24px 16px 48px}.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px}
+h1{font-size:26px;margin:0 0 8px}p,li{color:var(--muted)}a{color:var(--teal)}
+.grid{display:grid;grid-template-columns:minmax(0,360px) 1fr;gap:24px;align-items:start}@media(max-width:700px){.grid{grid-template-columns:1fr}}
+video{width:100%;border-radius:16px;border:1px solid var(--line);background:#000}
+b{color:var(--text)}
+</style></head><body><div class="wrap"><div class="card">
+<h1>Voicora: foreground service demo</h1>
+<p>Recorded on Android with the Voicora release build (package <code>com.voicora.app</code>, version 1.0.0). It shows each foreground service the app declares.</p>
+<div class="grid">
+<video controls playsinline preload="metadata" src="video/voicora-foreground-services.mp4"></video>
+<div>
+<ol>
+<li><b>0:00, FOREGROUND_SERVICE_DATA_SYNC (network download):</b> the user taps <i>Download model</i>, leaves the app, and the voice model keeps downloading with a progress notification.</li>
+<li><b>~1:20, FOREGROUND_SERVICE_MEDIA_PROCESSING:</b> the user sends a long text and leaves the app. Speech generation continues on the device with a progress notification and a Stop button.</li>
+<li><b>~2:10, FOREGROUND_SERVICE_MEDIA_PLAYBACK:</b> the user plays the generated speech and leaves the app. Playback continues and is controlled from the media notification.</li>
+</ol>
+<p>Direct file: <a href="video/voicora-foreground-services.mp4">voicora-foreground-services.mp4</a></p>
+</div></div></div></div></body></html>
